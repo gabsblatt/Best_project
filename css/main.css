@@ -14,8 +14,8 @@ img {
 }
 
 body {
-	color: #44545E;
-	font-family: 'Tajawal', sans-serif;
+	color: #011B33;
+	font-family: 'SF Pro Text';
 	margin: 0;
 	text-align: center;
 }
@@ -34,6 +34,10 @@ body {
  /*.col-1-3 {
 	width: 33.333333%;
 }*/
+
+.nothing {
+	height: 50px;
+}
 
 .model {
 	background-attachment: fixed;
@@ -82,9 +86,6 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
-	color: lightpink;
-}
 
 nav a:active {
 	color: lightpink;
@@ -116,7 +117,7 @@ p {
 }
 
 #step1, #step2, #step3 {
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 	padding-top: 0px;
 }
 
@@ -136,7 +137,7 @@ form {
 
 
 input, textarea {
-	border: 1px solid #45445E;
+	border: 1px solid #011B33;
 	display: block;
 	margin-bottom: 10px;
 	padding: 5px;
@@ -159,6 +160,27 @@ textarea {
 
 }
 
+footer {
+	background-color: #011B33;
+	color: white;
+	padding: 20px;
+
+}
+
+.social-icons a {
+	font-size: 30px;
+	margin: 5px;
+	color: white;
+}
+
+a:hover {
+	color: lightpink;
+}
+
+.footer {
+	font-weight: lighter;
+}
+
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
@@ -169,7 +191,6 @@ button {
 	border-color: lightpink;
 	color: white;
 	padding: 10px;
-	padding-bottom: 5px;
 	transition: all 0.5s ease;
 	width: 40%;
 	text-align: center;
@@ -184,18 +205,19 @@ button:hover {
 
 
 label {
-	font-family: 'Tajawal', sans-serif;
+	font-family: 'SF Pro Text';
+	font-weight: lighter;
 	color: black;
 	text-align: left;
 	display: block;
 	margin-bottom: 5px;
-	color: #45445E;
+	color: #011B33;
 }
 
 @media screen and (max-width: 480px) {
 	#contact {
 		padding: 20px;
-		padding-top: 50px;
+		padding-top: 150px;
 	}
 
 	#about {
@@ -207,6 +229,7 @@ label {
 	}
 
 	input, textarea {
+		border: 1px solid #011B33;
 		width: 100%;
 	}
 
@@ -221,7 +244,7 @@ label {
 	nav a {
 		display: inline;
 		margin: 0;
-		padding-left: 40px;
+		padding-left: 20px;
 	}
 
 	.logo img {
@@ -247,8 +270,19 @@ label {
 		background-attachment: scroll;
 	}
 
+	p {
+		font-size: 14px;
+	}
+
 	h2 {
+		font-size: 24px;
 		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	h3 {
+		font-size: 14px;
 	}
 }
 
