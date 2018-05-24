@@ -15,7 +15,7 @@ img {
 
 body {
 	color: #011B33;
-	font-family: 'SF Pro Text';
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	text-align: center;
 }
@@ -205,7 +205,7 @@ button:hover {
 
 
 label {
-	font-family: 'SF Pro Text';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	color: black;
 	text-align: left;
